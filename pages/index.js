@@ -41,10 +41,10 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="./public/resume.pdf"
+                  href="./resume.pdf"
                   target="_blank"
                 >
-                  Resumesssosdkaaps
+                  Resume
                 </a>
               </li>
             </ul>
@@ -61,8 +61,12 @@ export default function Home() {
               Fullstack Adventurer.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
+              <a href="https://www.twitter.com/membatheone">
+                <AiFillTwitterCircle />
+              </a>
+              <a href="https://www.linkedin.com/in/membathisi-mcetywa">
+                <AiFillLinkedin />
+              </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={memba} layout="fill" objectFit="cover" alt="" />
