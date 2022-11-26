@@ -30,7 +30,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">membaa</h1>
+            <h1 className="font-burtons text-xl">membaa 🍉</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -75,22 +75,37 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Who is Memba</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-3xl py-1 dark:text-white ">About</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-lg">
               I am a junior full stack software developer. passionate about
-              technology & people. My current area of expertise is React & React
-              Native with TypeScript. consulted for{" "}
-              <span className="text-teal-500">
-                <a href="https://vsco.co/geoidesy">startups</a>
+              technology, engineering & people. My primary goal is to apply my
+              technical expertise all throughout the full software life cycle to
+              ensure production and delivery of products and services that meet
+              the required specifications. And my experience as a junior
+              software developer has directly contributed to the achievement of
+              this goal by enhancing my abilities in designing, implementing,
+              testing, and upgrading software. My current go to stack is React
+              or React Native with TypeScript. However I am skilled in several
+              other tools and languages that are mentioned in my resume. As a
+              person, I enjoy remaining open to new experiences and this
+              directly impacts me in my career as a software developer because
+              learning new technologies is one of my favourite things to do. In
+              my free time I enjoy football, hikes, and photography which can be
+              accessed{" "}
+              <span className="text-teal-600">
+                <a
+                  href="https://vsco.co/geoidesy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here
+                </a>
+                .
               </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
             </p>
           </div>
+        </section>
+        <section>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
